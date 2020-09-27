@@ -1,0 +1,14 @@
+MeetingMaker was our submission for Borderhacks 2020.
+It was created by Ming Hao Chen, Brandon Klassen, and Stephen Sarkis Wiebe
+
+Even planning our initial meeting for Borderhacks took too much effort and fruitless communication.
+
+MeetingMaker allows you to create a visual representation of your availability and invite your friends to input theirs'. Our app then finds the intersection of all users' availability to determine the best time to meet.
+
+Ming Hao Chen and I created the frontend of MeetingMaker using React JS and TUICalendar as a calendar library. Our backend is using Spring as the framework, with Apache Cassandra as our DBS. We have three endpoints, which creates a unique calendar for your user group, updates the database with new events created on the front end, and calculates the best time to meet.
+
+As our first web app, MeetingMaker threw us into unfamiliar territory. Learning event-based coding and creating our first database and API proved extremely challenging and stretched our ETA fivefold.
+
+We are proud of our progress with React and its many quirks new our new experience with creating and interfacing databases. Though we expected to have a more complete product, we are more than content with coming out with what we have learned.
+
+MeetingMaker inspired conversation about other potential productivity apps. Though we may come back to this product to learn more about the frameworks we used, it definitely won't be to polish the project.
